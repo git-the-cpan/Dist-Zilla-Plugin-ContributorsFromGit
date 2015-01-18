@@ -9,15 +9,17 @@
 #
 package Dist::Zilla::Plugin::ContributorsFromGit;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.014-2-gf19e7a3
-$Dist::Zilla::Plugin::ContributorsFromGit::VERSION = '0.015';
+# git description: 0.015-1-g1b59b90
+$Dist::Zilla::Plugin::ContributorsFromGit::VERSION = '0.016';
 
 # ABSTRACT: Populate your 'CONTRIBUTORS' POD from the list of git authors
 
 use utf8;
 use v5.10;
 
-use Reindeer 0.017;
+use Moose;
+use MooseX::AttributeShortcuts;
+use MooseX::Types::Moose ':all';
 use Encode qw(decode_utf8);
 use autobox::Core;
 use autobox::Junctions;
@@ -174,7 +176,7 @@ Dist::Zilla::Plugin::ContributorsFromGit - Populate your 'CONTRIBUTORS' POD from
 
 =head1 VERSION
 
-This document describes version 0.015 of Dist::Zilla::Plugin::ContributorsFromGit - released January 18, 2015 as part of Dist-Zilla-Plugin-ContributorsFromGit.
+This document describes version 0.016 of Dist::Zilla::Plugin::ContributorsFromGit - released January 18, 2015 as part of Dist-Zilla-Plugin-ContributorsFromGit.
 
 =head1 SYNOPSIS
 

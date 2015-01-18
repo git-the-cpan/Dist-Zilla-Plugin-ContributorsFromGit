@@ -51,8 +51,10 @@
             "File::Which" : "0",
             "IPC::System::Simple" : "0",
             "List::AllUtils" : "0",
+            "Moose" : "0",
+            "MooseX::AttributeShortcuts" : "0",
+            "MooseX::Types::Moose" : "0",
             "Path::Class" : "0",
-            "Reindeer" : "0.017",
             "YAML::Tiny" : "0",
             "aliased" : "0",
             "autobox::Core" : "0",
@@ -85,7 +87,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::ContributorsFromGit" : {
          "file" : "lib/Dist/Zilla/Plugin/ContributorsFromGit.pm",
-         "version" : "0.015"
+         "version" : "0.016"
       }
    },
    "release_status" : "stable",
@@ -100,7 +102,7 @@
          "web" : "https://github.com/RsrchBoy/Dist-Zilla-Plugin-ContributorsFromGit"
       }
    },
-   "version" : "0.015",
+   "version" : "0.016",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.020001"
@@ -542,7 +544,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : "1",
-                  "tag" : "0.015",
+                  "tag" : "0.016",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"

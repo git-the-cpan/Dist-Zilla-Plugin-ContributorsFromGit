@@ -36,7 +36,7 @@ no_index:
 provides:
   Dist::Zilla::Plugin::ContributorsFromGit:
     file: lib/Dist/Zilla/Plugin/ContributorsFromGit.pm
-    version: '0.015'
+    version: '0.016'
 requires:
   Dist::Zilla: '5.013'
   Dist::Zilla::Role::BeforeBuild: '0'
@@ -48,8 +48,10 @@ requires:
   File::Which: '0'
   IPC::System::Simple: '0'
   List::AllUtils: '0'
+  Moose: '0'
+  MooseX::AttributeShortcuts: '0'
+  MooseX::Types::Moose: '0'
   Path::Class: '0'
-  Reindeer: '0.017'
   YAML::Tiny: '0'
   aliased: '0'
   autobox::Core: '0'
@@ -61,7 +63,7 @@ resources:
   bugtracker: https://github.com/RsrchBoy/Dist-Zilla-Plugin-ContributorsFromGit/issues
   homepage: https://github.com/RsrchBoy/Dist-Zilla-Plugin-ContributorsFromGit
   repository: https://github.com/RsrchBoy/Dist-Zilla-Plugin-ContributorsFromGit.git
-version: '0.015'
+version: '0.016'
 x_Dist_Zilla:
   perl:
     version: '5.020001'
@@ -402,7 +404,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: '1'
-          tag: '0.015'
+          tag: '0.016'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local
