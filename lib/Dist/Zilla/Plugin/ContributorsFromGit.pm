@@ -8,11 +8,9 @@
 #   The GNU Lesser General Public License, Version 2.1, February 1999
 #
 package Dist::Zilla::Plugin::ContributorsFromGit;
-BEGIN {
-  $Dist::Zilla::Plugin::ContributorsFromGit::AUTHORITY = 'cpan:RSRCHBOY';
-}
-# git description: 0.013-2-g82086ac
-$Dist::Zilla::Plugin::ContributorsFromGit::VERSION = '0.014';
+our $AUTHORITY = 'cpan:RSRCHBOY';
+# git description: 0.014-2-gf19e7a3
+$Dist::Zilla::Plugin::ContributorsFromGit::VERSION = '0.015';
 
 # ABSTRACT: Populate your 'CONTRIBUTORS' POD from the list of git authors
 
@@ -25,7 +23,7 @@ use autobox::Core;
 use autobox::Junctions;
 use File::Which 'which';
 use List::AllUtils qw{ max uniq };
-use File::ShareDir::ProjectDistDir;
+use File::ShareDir qw/ dist_dir /;
 use YAML::Tiny;
 use Path::Class;
 
@@ -164,8 +162,9 @@ __END__
 
 =encoding UTF-8
 
-=for :stopwords Chris Weyl Brendan Tatsuhiko Miyagawa Byrd David Golden Graham Knop Mike
-Greb Randy Stauner zilla BeforeBuild metacpan shortlog committer mailmap
+=for :stopwords Chris Weyl Brendan Randy Stauner Tatsuhiko Yanick Byrd Champoux David
+Golden Graham Greb Knop Mike Miyagawa zilla BeforeBuild metacpan shortlog
+committer mailmap
 
 =for :stopwords Wishlist flattr flattr'ed gittip gittip'ed
 
@@ -175,7 +174,7 @@ Dist::Zilla::Plugin::ContributorsFromGit - Populate your 'CONTRIBUTORS' POD from
 
 =head1 VERSION
 
-This document describes version 0.014 of Dist::Zilla::Plugin::ContributorsFromGit - released July 05, 2014 as part of Dist-Zilla-Plugin-ContributorsFromGit.
+This document describes version 0.015 of Dist::Zilla::Plugin::ContributorsFromGit - released January 18, 2015 as part of Dist-Zilla-Plugin-ContributorsFromGit.
 
 =head1 SYNOPSIS
 
@@ -320,6 +319,8 @@ L<Amazon Wishlist|http://bit.ly/rsrchboys-wishlist>...  If you so desire.
 
 =head1 CONTRIBUTORS
 
+=for stopwords Brendan Byrd David Golden Graham Knop Mike Greb Randy Stauner Tatsuhiko Miyagawa Yanick Champoux
+
 =over 4
 
 =item *
@@ -345,6 +346,10 @@ Randy Stauner <randy@magnificent-tears.com>
 =item *
 
 Tatsuhiko Miyagawa <miyagawa@bulknews.net>
+
+=item *
+
+Yanick Champoux <yanick@babyl.dyndns.org>
 
 =back
 

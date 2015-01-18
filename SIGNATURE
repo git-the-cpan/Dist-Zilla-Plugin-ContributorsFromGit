@@ -15,41 +15,47 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 55ac697642a18dd7d974736a3d06fd531aa82382 .travis.yml
-SHA1 8a2712196e663cbe2153c465c153ab16cd425e10 Changes
+SHA1 dc69ef21d98bb3c624f73a10e5426235f1ce6c23 Changes
 SHA1 bf2d713ceca5b8ad3d680ed15baba1b89df7e149 LICENSE
-SHA1 ac018b200816dd81a78903d756359f773b6f5106 MANIFEST
-SHA1 16d24c973a57fd0fba27a7ce341069b855bdd000 META.json
-SHA1 c070e9467bc95d8f430dec7689178fff2b0a6d89 META.yml
-SHA1 0c89860b9df68d420e13a1092c677514d5a7c699 Makefile.PL
-SHA1 616fe33e1c6ac58332c8dbfc93647106e24e890e README
-SHA1 0d7825671de4e390895cade1bcb74d8b70622484 cpanfile
+SHA1 dc7a8a57eb180a2ed2057c6fada69332fe7edf3a MANIFEST
+SHA1 55ad7fc9b8b4493bbbe48018e88be79ce9f09172 META.json
+SHA1 219201c822b8bb20d32d9c7c3d7f2bb5753ce6ec META.yml
+SHA1 c42d39553abf633e2fd4d4de141f3d3807449aab Makefile.PL
+SHA1 fa57f9100071cfb49a12157f77b1d183faf761fb README
+SHA1 539bef2686be3c3641bafc63cbb13985a391ec89 cpanfile
 SHA1 ce8a53b2368c2837ae165a7a7395856d9c97dee8 dist.ini
-SHA1 60587b5ba2f1f5172c3d66ae5f03d3f2f5a634b7 lib/Dist/Zilla/Plugin/ContributorsFromGit.pm
+SHA1 ec91d7e8b1c99e284d75fdb2e641017fd66433dc lib/Dist/Zilla/Plugin/ContributorsFromGit.pm
 SHA1 f992b050ff7afdffc6017d0d4d5b7e6ac793417a share/author-emails.yaml
 SHA1 c522c3928158e64bd97d34d20cbfe0b5305a7eb2 t/00-check-deps.t
-SHA1 6eb7200753ae10224f91ff9faa055f96bc514890 t/00-compile.t
-SHA1 8d8cd07bcf17540f992abc4e1b5f6f33ef90c660 t/000-report-versions-tiny.t
-SHA1 eb5dc73f63ed8212fd481147bd7b46997cc04c9d t/author-map.t
-SHA1 913649901011ec2c52cc0c2864248566983d42af t/basic.t
+SHA1 fc220b9c85fd5043e7d507cc22cb0572f2e78017 t/00-compile.t
+SHA1 96cdaa63982aecde03a15d0787d7eee9e67baaff t/000-report-versions-tiny.t
+SHA1 95959b50c191d12f93183cb704d2d91e240c28cc t/author-map.t
+SHA1 6912e2d0be9c06b4f5479fcbc2608e94d74531ff t/basic.t
 SHA1 6ddfd6c92fcc1e6b3288e058910360ccde9d4468 t/validate-public-interface.t
-SHA1 0596bf4ed8907e4ec276562e22bbbfee7f85ceb0 xt/author/pod-spell.t
+SHA1 f09e96f46ac2364307142838d68b4f1953b5919d xt/author/eol.t
+SHA1 fb3d45a1be9250052a932cc11004b5277551c9c9 xt/author/no-tabs.t
+SHA1 1c5c40d53a1e8fd744f04bd9719493f8df9a13d5 xt/author/pod-spell.t
 SHA1 a7948d34cfaad400286ea5d5fa6206c4c7e2552c xt/release/consistent-version.t
-SHA1 b3915eaac65e18e6a048b34a4b873beccab326b4 xt/release/eol.t
 SHA1 4c1835396aeae4efd599f1cc84014ee3980d9884 xt/release/has-version.t
 SHA1 3bbc4a90c2af61c5a0cfd291eb3d13288d7099d6 xt/release/minimum-version.t
-SHA1 b61e177e54a613cd9c9a2182aa895cd251049ecf xt/release/no-smart-comments.t
-SHA1 90fcf36fbacaa8476e7661974fa5f81c6a2ecb59 xt/release/no-tabs.t
+SHA1 393df214c65b8d9553d6204aecfdd8b7c122921c xt/release/no-smart-comments.t
 SHA1 bc232867aba0a7a5597cb3b313a6c7c5b9759582 xt/release/pod-coverage.t
 SHA1 a85d9cd82138d7c12ca77c57bf3dbfc4c90092b3 xt/release/pod-linkcheck.t
 SHA1 e4eda57368cd35ee82313e8983fa6af121cbc247 xt/release/pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJTuHwnAAoJEOd5N1CvIgQklJkH/34tcDgAlI+ePA+l+0eWru+r
-aPtvDOI2Zfw0uCUT1JARrOzi4bxV4BVAKS3BdGwTmyOzDup2kADG346kypcnN1uT
-7enXmKwGscnAM6Y8bepl6EYxJexq7APiZEnaJlp4mOhQHTI14IISuWvIvJE6UZSA
-g53nPvMzDMBXfnbtKN3bw9VZ6f31YL3OXgXKCuu2+JAB3Lf4gzTA9MPuwQxS4RIO
-7jkORJzNzuiKRJr3hS8cm4fskrAymShy/WaK7QIxtRkrTT0P9rC6Ve6aLr5PC98R
-NLnWaXfQziBYd6R9dgdKnv/Rkp7yjvCiDuDSTNft4RTAnY4AEz0MGMW9dlJYMrY=
-=XMqh
+iQIcBAEBAgAGBQJUvDXDAAoJEJ/Rlq0N/NXWIqMP/RpUHQaJCOfF94ddm8QEgfOp
+DZUhsdkPbIX4gN9owUYrBQQfGJOJFJagwFpxYsfnGmnXUkR84KArqSIsW+SWmdBd
+0VStFcpCdA9Q7FpnaSGmGj91Ne4KbKaILGXgVusqVnBxLCGpd/WsZdetX/Fz+5wN
+X8rESmWk8TS15HpLfdbXlQb2DSJqyId++jT9VcI5h7NfYNh+cV5Fyxh/QZhfNsPg
+YZ864Ms/Jz1KsOmHWu7d48RwhNzDVBFzQFH703XV0WIz+BoZUK5OCf9qZ1VYhqNj
+FRdObjw5LN+bth82fDhZG2ne9hVNE5vCGrNkPtoOv1LcJAfjyBj146/kDCuEEEkP
+lPyQBLqTwDwAmu0sfosvJzZ3PEiF8rsYHuiJ3Z6I4IeKOuIytwf4PJuqO1eVVf3y
+GU3KSoKHvNgSCN9qQpJE76G+HMwhydDNusUsi1X7kt8BP0eZtB6IVwUOBsMy8J2e
+yInZBNUIZuuIagB2uooVyblFHVDkxm7T/U3+YFFKP+WPv4rktGCrTTEWm/c5dYML
+B/uGZN3QiduqRFVkZgks0DWhiiow6Ni2lIqM7OTnK3cKO2pnr1tAE3OeK5sPuCbl
+B1SbvB/UhqDG1qTls9BIkQF97Jvl9Ns3nonV+ecjkiX4sfGrV6ZN2/mZXU4keqa3
+6A3JohE8NhisC4kofRdX
+=6rS/
 -----END PGP SIGNATURE-----

@@ -43,6 +43,9 @@ randy
 Tatsuhiko
 Miyagawa
 miyagawa
+Yanick
+Champoux
+yanick
 lib
 Dist
 Zilla
