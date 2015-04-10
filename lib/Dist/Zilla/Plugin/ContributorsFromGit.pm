@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::Plugin::ContributorsFromGit;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.015-1-g1b59b90
-$Dist::Zilla::Plugin::ContributorsFromGit::VERSION = '0.016';
+# git description: 0.016-3-gee7ffea
+$Dist::Zilla::Plugin::ContributorsFromGit::VERSION = '0.017';
 
 # ABSTRACT: Populate your 'CONTRIBUTORS' POD from the list of git authors
 
@@ -176,7 +176,7 @@ Dist::Zilla::Plugin::ContributorsFromGit - Populate your 'CONTRIBUTORS' POD from
 
 =head1 VERSION
 
-This document describes version 0.016 of Dist::Zilla::Plugin::ContributorsFromGit - released January 18, 2015 as part of Dist-Zilla-Plugin-ContributorsFromGit.
+This document describes version 0.017 of Dist::Zilla::Plugin::ContributorsFromGit - released April 09, 2015 as part of Dist-Zilla-Plugin-ContributorsFromGit.
 
 =head1 SYNOPSIS
 

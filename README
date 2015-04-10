@@ -5,8 +5,8 @@ NAME
 
 VERSION
 
-    This document describes version 0.016 of
-    Dist::Zilla::Plugin::ContributorsFromGit - released January 18, 2015 as
+    This document describes version 0.017 of
+    Dist::Zilla::Plugin::ContributorsFromGit - released April 09, 2015 as
     part of Dist-Zilla-Plugin-ContributorsFromGit.
 
 SYNOPSIS

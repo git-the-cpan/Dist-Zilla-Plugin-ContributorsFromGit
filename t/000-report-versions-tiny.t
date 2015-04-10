@@ -48,7 +48,6 @@ sub pmver {
     return sprintf('%-45s => %-10s%-15s%s', $module, $pmver, $wanted, "\n");
 }
 
-eval { $v .= pmver('Directory::Scratch','any version') };
 eval { $v .= pmver('Dist::Zilla','5.013') };
 eval { $v .= pmver('Dist::Zilla::Role::BeforeBuild','any version') };
 eval { $v .= pmver('Dist::Zilla::Role::MetaProvider','any version') };
@@ -74,7 +73,7 @@ eval { $v .= pmver('Test::DZil','any version') };
 eval { $v .= pmver('Test::File::ShareDir','any version') };
 eval { $v .= pmver('Test::Moose::More','any version') };
 eval { $v .= pmver('Test::More','0.94') };
-eval { $v .= pmver('Test::TempDir','any version') };
+eval { $v .= pmver('Test::TempDir::Tiny','any version') };
 eval { $v .= pmver('YAML::Tiny','any version') };
 eval { $v .= pmver('aliased','any version') };
 eval { $v .= pmver('autobox::Core','any version') };
